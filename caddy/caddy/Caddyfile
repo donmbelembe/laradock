@@ -1,6 +1,6 @@
 # Docs: https://caddyserver.com/docs/caddyfile
 https://pretacheter.com, https://www.pretacheter.com {
-    root /var/www/public
+    root /var/www/current/public
     fastcgi / php-fpm:9000 php {
         index index.php
     }
