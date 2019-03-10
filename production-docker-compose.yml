@@ -308,7 +308,7 @@ services:
         - ./certbot/letsencrypt/:/var/www/letsencrypt
       environment:
         - CN=pretacheter.com
-        - EMAIL="pretacheter@gmail.com"
+        - EMAIL=pretacheter@gmail.com
       networks:
         - frontend
 
